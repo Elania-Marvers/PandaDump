@@ -18,7 +18,7 @@ then
 else
     touch $FILE
     echo "
-msgcom=\$\@
+msgcom=\$@
 git add *
 git commit -vam \"\$msgcom\"
 git push
